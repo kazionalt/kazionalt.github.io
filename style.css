@@ -1,0 +1,53 @@
+body {
+ background: #000;
+ color: #0f0;
+ font-family: monospace;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5%;
+  right: 25px;
+  text-align: right;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #0f0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.pull-left {
+  float: left;
+  padding-left: 25px;
+}
+
+.pull-right {
+  float: right;
+  padding-right: 25px;
+}
